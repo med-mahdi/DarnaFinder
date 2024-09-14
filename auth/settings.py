@@ -135,4 +135,3 @@ STATICFILES_DIRS = [
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/media')
-# SENDGRID_API_KEY = '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'
