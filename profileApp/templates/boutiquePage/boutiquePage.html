@@ -36,7 +36,6 @@
 
         <div class="app">
             <navbar-sec background="transparent" progress_bar="true"></navbar-sec>
-            <boutique-card @open-overlay="toggleOverlay" @overlay-data-update="updateOverLayData" ref="boutiquecard" :profile_id="boutique_id" :userauth="pagination_data.userAuth"></boutique-card>
             <boutique-listing :data="listing_data" :boutiqueid="boutique_id" :boutiquename="boutique_name" :listingcount="listing_count"></boutique-listing>
             <overlay-sec v-if="showOverlay" @close-overlay="toggleOverlay" :data="overLayData"></overlay-sec>
             <fotter-sec test="500"></fotter-sec>

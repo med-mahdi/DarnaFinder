@@ -117,7 +117,7 @@ app.component('create-post-first-step',{
         return {
             hs_id : test_data,
             hs_cat : "House",
-            hs_state : "",
+            hs_state : "Active",
             hs_transaction : "Vente",
             hs_city : "Casablanca",
             fname : "mehdi hyad",
@@ -139,9 +139,9 @@ app.component('create-post-first-step',{
             }
             else{
                 addresse_error_text.style.opacity = "0"
-                addresse_input_box.style.border = "3px solid #4A3AFF"
+                addresse_input_box.style.border = "3px solid #a13aff"
                 setTimeout(()=>{
-                    addresse_input_box.style.border = "1px solid #B7B7B7"
+                    addresse_input_box.style.border = "1px solid #a13aff"
                 },1000)
                 return true
             }
@@ -167,11 +167,11 @@ app.component('create-post-first-step',{
             this.$emit("next-move","showFirst","showSecond")
             step1.style.border = "none"
             step1.style.color = "white"
-            step1.style.backgroundColor = "#4A3AFF"
-            bar1.style.backgroundColor = "#4A3AFF"
+            step1.style.backgroundColor = "#a13aff"
+            bar1.style.backgroundColor = "#a13aff"
 
-            step2.style.border = "3px solid #4A3AFF"
-            step2.style.color = "#4A3AFF"
+            step2.style.border = "3px solid #a13aff"
+            step2.style.color = "#a13aff"
         }
         ,
         getData(id){
@@ -190,8 +190,8 @@ app.component('create-post-first-step',{
         var step1 = document.getElementById("step1");
         var that = this
         var buttons = document.querySelector(".buttons")
-        step1.style.border = "3px solid #4A3AFF";
-        step1.style.color = "#4A3AFF";
+        step1.style.border = "3px solid #a13aff";
+        step1.style.color = "#a13aff";
         buttons.style.marginTop = "0";
 
         that.getData(this.house_id)

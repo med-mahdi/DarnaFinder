@@ -160,18 +160,18 @@ app.component('create-post-second-step',{
                     document.getElementById(ele).value = 0;
                     inputBox.style.border = "3px solid red"
                     setTimeout(()=>{
-                        inputBox.style.border = "3px solid #685BFF"
+                        inputBox.style.border = "3px solid #a13aff"
                     },900)
                 }
                 else if (ourInput > 10000){
                     document.getElementById(ele).value = 10000;
                     inputBox.style.border = "3px solid red"
                     setTimeout(()=>{
-                        inputBox.style.border = "3px solid #685BFF"
+                        inputBox.style.border = "3px solid #a13aff"
                     },900)
                 }
                 else if (ourInput > 0 && ourInput <= 10000){
-                    inputBox.style.border = "3px solid #685BFF"
+                    inputBox.style.border = "3px solid #a13aff"
                 }
             }
             else{
@@ -179,18 +179,18 @@ app.component('create-post-second-step',{
                     document.getElementById(ele).value = 0;
                     inputBox.style.border = "3px solid red"
                     setTimeout(()=>{
-                        inputBox.style.border = "3px solid #685BFF"
+                        inputBox.style.border = "3px solid #a13aff"
                     },900)
                 }
                 else if (ourInput > 50){
                     document.getElementById(ele).value = 50;
                     inputBox.style.border = "3px solid red"
                     setTimeout(()=>{
-                        inputBox.style.border = "3px solid #685BFF"
+                        inputBox.style.border = "3px solid #a13aff"
                     },900)
                 }
                 else if (ourInput > 0 && ourInput <= 50){
-                    inputBox.style.border = "3px solid #685BFF"
+                    inputBox.style.border = "3px solid #a13aff"
                 }
             }
         },
@@ -252,14 +252,14 @@ app.component('create-post-second-step',{
             
             step2.style.border = "none"
             step2.style.color = "white"
-            step2.style.backgroundColor = "#4A3AFF"
-            bar2.style.backgroundColor = "#4A3AFF"
+            step2.style.backgroundColor = "#a13aff"
+            bar2.style.backgroundColor = "#a13aff"
 
             this.$emit("next-move","showSecond","showThird")
 
-            step3.style.border = "3px solid #4A3AFF";
-            step3.style.color = "#4A3AFF";
-            step3.style.backgroundColor = "#EFF0F6";
+            step3.style.border = "3px solid #a13aff";
+            step3.style.color = "white";
+            step3.style.backgroundColor = "#a13aff";
         },
         goBack(){
             var step1 = document.getElementById("step1");
@@ -273,8 +273,8 @@ app.component('create-post-second-step',{
 
             bar1.style.backgroundColor = "#EFF0F6";
             console.log("hey there")
-            step1.style.color = "rgb(74, 58, 255)";
-            step1.style.border = "3px solid #4A3AFF";
+            step1.style.color = "#a13aff";
+            step1.style.border = "3px solid #a13aff";
             step1.style.backgroundColor = "#EFF0F6";
         }
         ,

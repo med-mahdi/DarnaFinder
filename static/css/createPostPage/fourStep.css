@@ -23,7 +23,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #4A3AFF;
+    color: #a13aff;
     margin-top:.3em;
 }
 
@@ -61,7 +61,7 @@ input#add-single-img {
     cursor: pointer;
     width: 178px;
     height: 178px;
-    border: 2px dashed #4A3AFF;
+    border: 2px dashed #a13aff;
     border-radius: 5px;
     object-fit: cover;
 

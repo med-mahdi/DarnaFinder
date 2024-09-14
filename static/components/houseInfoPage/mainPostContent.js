@@ -43,15 +43,6 @@ app.component('main-content',{
                             <img src="/media/phoneIcon.png" alt="">
                             Phone Number
                         </button>
-                        <a :href="chatLinkUrl"><button v-if="user_auth" class="chat-btn">
-                            <img src="/media/chatIcon.png" alt="">
-                            Chat
-                        </button></a>
-
-                        <a href="/login"><button v-if="!user_auth" class="chat-btn">
-                            <img src="/media/chatIcon.png" alt="">
-                            Chat
-                        </button></a>
                     </div>
                 </div>
             </div>

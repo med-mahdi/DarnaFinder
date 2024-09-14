@@ -51,7 +51,7 @@ section#profile .edit-info-sec .buttons-links a button{
 
 
 section#profile .edit-info-sec .buttons-links a:first-child button{
-    color: #685BFF;
+    color: #a13aff;
     margin-right: .5em;
 }
 
@@ -149,7 +149,7 @@ button#pri-btn{
     height: 54px;
     left: 379px;
     top: 819px;
-    background: #4A3AFF;
+    background: #a13aff;
     border-radius: 5px;
     border: none;
     /* Font */
@@ -194,7 +194,7 @@ button#pri-btn{
         height: 54px;
         left: 379px;
         top: 819px;
-        background: #4A3AFF;
+        background: #a13aff;
         border-radius: 5px;
         color: #F2F2F2;
         border: none;
@@ -224,7 +224,7 @@ button#pri-btn{
 
 
 button#pri-btn:disabled{
-    background: #4A3AFF;
+    background: #a13aff;
     opacity: 0.5;
 }
 

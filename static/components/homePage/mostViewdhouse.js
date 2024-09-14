@@ -7,8 +7,8 @@ app.component('most-viewd-house',{
     <section id="hero-mst-vdh">
             <div class="container">
                 <div class="heading">
-                    <h2>Explore Most Viewed House</h2>
-                    <p>The most viewed estates in Morocco</p>
+                    <h2>Explore Latest Available House</h2>
+                    <p>The most available estates in Morocco</p>
                 </div>
 
                 <div class="house-cards-cont">

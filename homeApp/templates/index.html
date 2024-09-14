@@ -43,7 +43,7 @@
             <hero-section></hero-section>
             <recommandations-hero></recommandations-hero>
             <most-viewd-house @login_card_activate="openLoginCard" :data="most_viewd_house"></most-viewd-house>
-            <most-liked-house @login_card_activate="openLoginCard" :data="liked_house_data"></most-liked-house>
+            {% comment %} <most-liked-house @login_card_activate="openLoginCard" :data="liked_house_data"></most-liked-house> {% endcomment %}
             <notify-section></notify-section>
             <fotter-bigger></fotter-bigger>
             <overlay-login v-if="showLoginCard" @closeoverlay="close_overlay"></overlay-login>

@@ -55,8 +55,8 @@ section#profile .container .profile-nav button{
 
 
 section#profile .container .profile-nav button:nth-child(3){
-    color: #4A3AFF;
-    border-bottom: 4px solid #4A3AFF;
+    color: #a13aff;
+    border-bottom: 4px solid #a13aff;
 }
 
 @media (max-width:850px){
@@ -136,8 +136,8 @@ section#profile .container .profile-nav button:nth-child(3){
 
 
 section#profile .container .profile-nav button.active{
-    border-bottom: 3px solid #4A3AFF;
-    color: #4A3AFF;
+    border-bottom: 3px solid #a13aff;
+    color: #a13aff;
     /* border-top: 1px solid #4a3aff26; */
     background-color: #4a3aff26;
 }

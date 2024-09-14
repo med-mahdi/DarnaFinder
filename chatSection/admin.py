@@ -5,5 +5,5 @@ from .models import *
 
 
 # Register your models here.
-admin.site.register(Conversation)
-admin.site.register(ChatMessage)
+# admin.site.register(Conversation)
+# admin.site.register(ChatMessage)

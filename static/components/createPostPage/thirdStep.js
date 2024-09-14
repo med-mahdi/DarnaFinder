@@ -29,9 +29,6 @@ app.component('create-post-third-step',{
             <p @click="validateForm" class="nxt-btn">Next step</p>
         </div>
     </div>
-
-
-
     `,
     data(){
         return{
@@ -74,7 +71,7 @@ app.component('create-post-third-step',{
 
                 inputBox.style.border = "1px solid red";
                 setTimeout(()=>{
-                    inputBox.style.border = "1px solid #685BFF"
+                    inputBox.style.border = "1px solid #a13aff"
                 },1500)
                 return false
             }
@@ -120,13 +117,13 @@ app.component('create-post-third-step',{
             var bar3 = document.getElementById("bar3");
             step3.style.border = "none"
             step3.style.color = "white"
-            step3.style.backgroundColor = "#4A3AFF"
-            bar3.style.backgroundColor = "#4A3AFF"
+            step3.style.backgroundColor = "#a13aff"
+            bar3.style.backgroundColor = "#a13aff"
 
             this.$emit("next-move","showThird","showFourth");
 
-            step4.style.border = "3px solid #4A3AFF";
-            step4.style.color = "#4A3AFF";
+            step4.style.border = "3px solid #a13aff";
+            step4.style.color = "#a13aff";
             step4.style.backgroundColor = "#EFF0F6";
         },
         goBack(){

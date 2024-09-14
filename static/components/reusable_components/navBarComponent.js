@@ -7,7 +7,7 @@ app.component('navbar-sec',{
                 <a href="/home">
                     <div id="logo">
                         <img src="/media/logo.png" alt="">
-                        <h1>Dari</h1>
+                        <h1>DarnaFinder</h1>
                     </div>
                 </a>
 
@@ -33,7 +33,6 @@ app.component('navbar-sec',{
                                         <li><a href="/account/listing/">My listings</a></li>
                                         <li><a href="/account/saveditem/">Saved Posts</a></li>
                                         <li><a href="/account/settings/profile/">Account settings</a></li>
-                                        <li><a href="/chat/">Inbox</a></li>
                                         <li><a href="/logout">Log out</a></li>
                                     </div>
                                 </ul>
@@ -52,9 +51,6 @@ app.component('navbar-sec',{
                 </span>
 
                 <span class="material-symbols-outlined" id="closingMenu" @click="openResponsiveNav">close</span>
-            </div>
-            <div class="progress" v-if="progress_bar === 'true'">
-                <div class="progress-bar"></div>
             </div>
     </header>
     `,

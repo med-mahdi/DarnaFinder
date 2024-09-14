@@ -5,9 +5,6 @@ body{
     background: #F8F8F8;
 }
 
-
-
-
 * {
     padding: 0;
     margin: 0;
@@ -17,11 +14,10 @@ body{
 }
 
 header{
-    /* border: 1px solid green; */
+    border-bottom: 1px solid #f3f3f3;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #d1d1d1;
-    background-color: white;
+    background-color: white !important;
     position: fixed;
     top: 0;
     z-index: 2000;
@@ -47,7 +43,7 @@ button#btn-add-item{
     height: 50px;
     left: 1092.59px;
     top: 73px;
-    background: #4A3AFF;
+    background: #a13aff;
     border-radius: 5px;
     border:none;
     color: white;
@@ -68,9 +64,9 @@ button#btn-add-item-sec{
     left: 1092.59px;
     top: 73px;
     background: transparent;
-    border: 2px solid #4A3AFF;
+    border: 2px solid #a13aff;
     border-radius: 5px;
-    color: #4A3AFF;
+    color: #a13aff;
     /* Font */
     font-family: 'Poppins';
     font-style: normal;
@@ -86,7 +82,7 @@ button#btn-add-item-pri{
     height: 55px;
     left: 1092.59px;
     top: 73px;
-    background: #4A3AFF;
+    background: #a13aff;
     border: none;
     border-radius: 5px;
     color: #F2F2F2;
@@ -122,9 +118,9 @@ button#btn-add-item-pri  > a{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 20px;
     line-height: 77px;
-    color: #111111;
+    color: #333333;
     margin-left: .5em;
 }
 
@@ -137,7 +133,7 @@ nav li{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #828282;
+    color: #333333;
     margin-right: 1.8em;
 }
 
@@ -163,7 +159,7 @@ nav .navLinks{
 
 
 .offic-links li a{
-    color: #828282;
+    color: #333333;
     text-decoration: none;
 }
 
@@ -505,6 +501,6 @@ header .progress{
 header .progress .progress-bar{
     height: 4px;
     width: 0%;
-    background:#4A3AFF;
+    background:#a13aff;
     transition: all 0.2s ease 0s;
 }

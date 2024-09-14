@@ -18,6 +18,6 @@ urlpatterns = [
     path('home/', include('homeApp.urls')),
     path('home/api/', include('homeApi.urls')),
     path('account/', include('profileApp.urls')),
-    path('chat/', include('chatSection.urls')),
+    # path('chat/', include('chatSection.urls')),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

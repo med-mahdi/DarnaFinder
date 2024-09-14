@@ -39,7 +39,7 @@
 .info-data-num label .input-box{
     width: 89px;
     height: 38px;
-    border: 2px solid #685BFF;
+    border: 2px solid #a13aff;
     border-radius:3px;
     overflow: hidden;
     display: flex;
@@ -142,7 +142,7 @@
 
 
 div.has_selected.info-check{
-    background-color: #4A3AFF;
+    background-color: #a13aff;
     cursor: pointer;
 }
 

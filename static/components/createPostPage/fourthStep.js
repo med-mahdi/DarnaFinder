@@ -70,7 +70,7 @@ app.component('create-post-fourth-step',{
                 var ele = document.querySelector("#add-img-label > i")
                 ele.style.transition = ".1s ease"
                 ele.className = "fa-solid fa-circle-check"
-                ele.style.color = "#4a3affed"
+                ele.style.color = "#a13aff"
 
                 var text = document.querySelector(".custom__image-container label h3")
                 text.innerHTML = "Image Uploaded Successfully"
@@ -80,14 +80,13 @@ app.component('create-post-fourth-step',{
         ,
         goBack(event){
             event.preventDefault();
-
             var step4 = document.getElementById("step4");
             var step3 = document.getElementById("step3");
             var bar3 = document.getElementById("bar3");
-            step3.style.border = "3px solid #4A3AFF"
-            step3.style.color = "rgb(74, 58, 255)"
-            step3.style.backgroundColor = "#EFF0F6"
-            bar3.style.backgroundColor = "#EFF0F6"
+            step3.style.border = "3px solid #a13aff"
+            step3.style.color = "#a13aff"
+            step3.style.backgroundColor = "#a13aff"
+            bar3.style.backgroundColor = "#a13aff"
 
             this.$emit("back-move","showFourth","showThird")
             

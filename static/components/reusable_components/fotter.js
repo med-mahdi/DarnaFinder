@@ -5,7 +5,7 @@ app.component('fotter-sec',{
     `   
     <footer class="fotter">
         <div class="container">
-            <p id="copyRight">Copyright © 2022 Real Estate World</p>
+            <p id="copyRight">Copyright © 2024 Real Estate World</p>
 
             <p>All Rights Reserved | <span>Terms and Conditions | Privacy Policy</span></p>
         </div>
